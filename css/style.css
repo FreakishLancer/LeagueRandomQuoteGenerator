@@ -1,0 +1,11 @@
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    margin: auto;
+    opacity: 0.90;
+    text-align: center;
+}
