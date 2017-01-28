@@ -695,12 +695,44 @@ function getRandInd(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+function parseSpecialChampNames(champName) {
+    const specialChampNames = {
+		"AurelionSol": "Aurelion Sol",
+		"Chogath": "Cho'Gath",
+		"DrMundo": "Dr. Mundo",
+		"FiddleSticks": "Fiddlesticks",
+		"JarvanIV": "Jarvan IV",
+		"Khazix": "Kha'Zix",
+		"KogMaw": "Kog'Maw",
+		"Leblanc": "LeBlanc",
+		"LeeSin": "Lee Sin",
+		"MasterYi": "Master Yi",
+		"MissFortune": "Miss Fortune",
+		"RekSai": "Rek'Sai",
+		"TahmKench": "Tahm Kench",
+		"TwistedFate": "Twisted Fate",
+		"Velkoz": "Vel'Koz",
+		"MonkeyKing": "Wukong",
+		"XinZhao": "Xin Zhao"
+	};
+	
+	const specialChampKeys = Object.keys(specialChampNames);
+	
+    if (specialChampKeys.includes(champName)) {
+		champName = specialChampNames[champName];
+        return champName;
+	}
+	else {
+        return champName;
+    }
+}
+
 function playRandQuote() {
     let randChampInd = getRandInd(0, champArr.length - 1);
     let champion = new Champion(champArr[randChampInd]);
     if (!soundbite) return;
     splash.src = champion.splashURL;
-    document.getElementById("championname").innerHTML = champion.name;
+    document.getElementById("championname").innerHTML = parseSpecialChampNames(champion.name);
     document.getElementById("championquote").innerHTML = champion.quote;
     soundbite.src = champion.soundbite;
     soundbite.play();
