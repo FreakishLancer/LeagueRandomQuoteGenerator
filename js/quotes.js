@@ -19,7 +19,7 @@ const quoteData = {
         "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/20/Ashe.move03.ogg/revision/latest?cb=20130505134903",
             "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/db/Ashe.move04.ogg/revision/latest?cb=20130505134911"]
     },
-    "Aurelion Sol": {
+    "AurelionSol": {
         "quotes": ["Nothing kindles wonder like the beauty of stars.", "Sometimes, the stars gaze back."],
         "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/5/53/AurelionSol.move10.ogg/revision/latest?cb=20160309222152",
             "http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/6b/AurelionSol.move36.ogg/revision/latest?cb=20160309222251"]
@@ -108,71 +108,87 @@ const quoteData = {
         "quotes": ["Every problem solved is another revealed.",
             "There are three key ingredients to invention: excessive imagination, good old fashioned stick-to-it-iveness, and a rocking good hairstyle!"],
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/77/Heimerdinger.move21.ogg/revision/latest?cb=20140228032839",
-        "http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/54/Heimerdinger.joke03.ogg/revision/latest?cb=20140228032704"]
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/54/Heimerdinger.joke03.ogg/revision/latest?cb=20140228032704"]
     },
     "Illaoi": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Wisdom is frequently a kick in the head.", "It is terrible to be satisfied. The world needs us to chase dreams."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/1/1b/Illaoi.move23.ogg/revision/latest?cb=20151114232437",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/28/Illaoi.move05.ogg/revision/latest?cb=20151114232156"]
     },
     "Irelia": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["True will cannot be defeated.", "Balance in all things."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/4/4a/Irelia.move9.ogg/revision/latest?cb=20121120014540",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/7f/Irelia.joke1.ogg/revision/latest?cb=20121120014442"]
     },
     "Ivern": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Live each day as if it's your first.", "Everything is connected in the strangest ways."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/c/ca/Ivern.start01.ogg/revision/latest?cb=20160928181212",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/24/Ivern.move13.ogg/revision/latest?cb=20160928175607"]
     },
     "Janna": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["In harmony.", "With ease."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/9a/Janna.move5.ogg/revision/latest?cb=20121127010029",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/f/fe/Janna.move2.ogg/revision/latest?cb=20121127010028"]
     },
-    "Jarvan IV": {
-        "quotes": [],
-        "soundbites": []
+    "JarvanIV": {
+        "quotes": ["Today is a good day to die!", "I love a challenge."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/71/Jarvan.move8.ogg/revision/latest?cb=20120618065854",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/c/cb/Jarvan.attack1.ogg/revision/latest?cb=20120618065813"]
     },
     "Jax": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Who wants a piece of the champ?", "Imagine if I had a real weapon."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/0d/Jax.taunt.ogg/revision/latest?cb=20121127045920",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d2/Jax.joke.ogg/revision/latest?cb=20121127045836"]
     },
     "Jayce": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Never look back.", "I fight for a brighter tomorrow."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/57/Jayce.move6.ogg/revision/latest?cb=20121119182409",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/d/d9/Jayce_Select.ogg/revision/latest?cb=20121119182233"]
     },
     "Jhin": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Art is worth the pain.", "The end is important in all things."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/08/Jhin.attack07.ogg/revision/latest?cb=20160117214224",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/c/c0/Jhin.move03.ogg/revision/latest?cb=20160117215450"]
     },
     "Jinx": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Everybody, panic!", "Let's just behave...said no one ever."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/0/0c/Jinx.attack15.ogg/revision/latest?cb=20130927133355",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/1/1d/Jinx.move01.ogg/revision/latest?cb=20130927133920"]
     },
     "Kalista": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["All things have consequence.", "Trust...is a weapon."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/6/6f/Kalista.move02.ogg/revision/latest?cb=20141105043408",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/1f/Kalista.move19.ogg/revision/latest?cb=20141105043539"]
     },
     "Karma": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["To conquer one's self is to conquer all.", "We have learned as much as we have suffered."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/a/a8/Karma.attack02.ogg/revision/latest?cb=20130320012906",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Karma.move10.ogg/revision/latest?cb=20130320013146"]
     },
     "Karthus": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Agony, ecstasy, peace. Every passing has a beauty all its own.", "In the end, only the dead shall remain."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/f/f5/Karthus_Select_new.ogg/revision/latest?cb=20140529072858",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/95/Karthus.move01.ogg/revision/latest?cb=20140522070112"]
     },
     "Kassadin": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The balance of power must be preserved.", "Justice will be served."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/7/79/Kassadin_Select.ogg/revision/latest?cb=20121127012543",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/2/2d/Kassadin.attack3.ogg/revision/latest?cb=20121127012545"]
     },
     "Katarina": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Keep friends close and enemies guessing.", "Better dead than dull."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/c/ce/Katarina.move4.ogg/revision/latest?cb=20121127000444",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/ef/Katarina.taunt1.ogg/revision/latest?cb=20121127000447"]
     },
     "Kayle": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["An eye for an eye.", "Into the fray!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/b/b2/Kayle.move3.ogg/revision/latest?cb=20121127050405",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/3/3f/Kayle_Select.ogg/revision/latest?cb=20121127050321"]
     },
     "Kennen": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The eyes never lie.", "Steady..."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/7a/Kennen_Select.ogg/revision/latest?cb=20121126180248",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/d/df/Kennen.move6.ogg/revision/latest?cb=20121126180335"]
     },
     "Khazix": {
         "quotes": [],
@@ -186,7 +202,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Kog'Maw": {
+    "KogMaw": {
         "quotes": [],
         "soundbites": []
     },
@@ -194,7 +210,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Lee Sin": {
+    "LeeSin": {
         "quotes": [],
         "soundbites": []
     },
@@ -230,11 +246,11 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Master Yi": {
+    "MasterYi": {
         "quotes": [],
         "soundbites": []
     },
-    "Miss Fortune": {
+    "MissFortune": {
         "quotes": [],
         "soundbites": []
     },
@@ -294,7 +310,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Rek'Sai": {
+    "RekSai": {
         "quotes": [],
         "soundbites": []
     },
@@ -367,7 +383,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Tahm Kench": {
+    "TahmKench": {
         "quotes": [],
         "soundbites": []
     },
@@ -391,7 +407,9 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Tristana": {},
+    "Tristana": {
+
+    },
     "Trundle": {
         "quotes": [],
         "soundbites": []
@@ -421,14 +439,15 @@ const quoteData = {
         "soundbites": []
     },
     "Vayne": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["In the dark, all is laid bare.", "The dark should fear me."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/70/Vayne.move6.ogg/revision/latest?cb=20121119215814",
+        "http://vignette2.wikia.nocookie.net/leagueoflegends/images/b/b1/Vayne.move8.ogg/revision/latest?cb=20121119215814"]
     },
     "Veigar": {
         "quotes": [],
         "soundbites": []
     },
-    "Vel'Koz": {
+    "Velkoz": {
         "quotes": [],
         "soundbites": []
     },
@@ -519,6 +538,7 @@ newquote.onclick = () => {
     let champion = new Champion(champArr[randChampInd]);
     if (!soundbite) return;
     document.getElementById("splash").src = champion.splashURL;
+    document.getElementById("championname").innerHTML = champion.name;
     document.getElementById("championquote").innerHTML = champion.quote;
     soundbite.src = champion.soundbite;
     soundbite.play();
