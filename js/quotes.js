@@ -353,10 +353,10 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Soraka": {
+    "champion": {
         "quotes": ["Every step; a new journey.", "Never waste a breath."],
-        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/1/16/Soraka.move6.ogg/revision/latest?cb=20121127210207",
-        "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/Soraka.move8.ogg/revision/latest?cb=20121127210208"]
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/1/16/champion.move6.ogg/revision/latest?cb=20121127210207",
+        "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/champion.move8.ogg/revision/latest?cb=20121127210208"]
     },
     "Swain": {
         "quotes": [],
@@ -495,6 +495,8 @@ const quoteData = {
 
 class Champion {
     constructor(name) {
+        let randomQuote = getRandInd(0, 1);
+
         this.name = name;
         this.splashURL = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${this.name}_0.jpg`;
         this.quote = quoteData[this.name]["quotes"][randomQuote];
@@ -508,17 +510,16 @@ function getRandInd(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const soraka = new Champion("Soraka");
-
+let randChamp = Object.keys(quoteData);
+let randChampInd = getRandInd(0, randChamp.length - 1);
 const soundbite = document.querySelector("audio");
 
 newquote.onclick = () => {
-    let randomQuote = getRandInd(0, 1);
-
+    let champion = new Champion(randChamp[randChampInd]);
     if (!soundbite) return;
-    document.getElementById("splash").src = soraka.splashURL;
-    document.getElementById("championquote").innerHTML = soraka.quote;
-    soundbite.src = soraka.soundbite;
+    document.getElementById("splash").src = champion.splashURL;
+    document.getElementById("championquote").innerHTML = champion.quote;
+    soundbite.src = champion.soundbite;
     soundbite.play();
-    console.log(soraka.quote);
+    console.log(champion.quote);
 };
