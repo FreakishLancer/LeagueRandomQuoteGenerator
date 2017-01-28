@@ -107,7 +107,8 @@ const quoteData = {
     "Heimerdinger": {
         "quotes": ["Every problem solved is another revealed.",
             "There are three key ingredients to invention: excessive imagination, good old fashioned stick-to-it-iveness, and a rocking good hairstyle!"],
-        "soundbites": []
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/77/Heimerdinger.move21.ogg/revision/latest?cb=20140228032839",
+        "http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/54/Heimerdinger.joke03.ogg/revision/latest?cb=20140228032704"]
     },
     "Illaoi": {
         "quotes": [],
@@ -173,7 +174,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Kha'Zix": {
+    "Khazix": {
         "quotes": [],
         "soundbites": []
     },
@@ -189,7 +190,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "LeBlanc": {
+    "Leblanc": {
         "quotes": [],
         "soundbites": []
     },
@@ -353,10 +354,10 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "champion": {
+    "Soraka": {
         "quotes": ["Every step; a new journey.", "Never waste a breath."],
-        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/1/16/champion.move6.ogg/revision/latest?cb=20121127210207",
-        "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/champion.move8.ogg/revision/latest?cb=20121127210208"]
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/1/16/Soraka.move6.ogg/revision/latest?cb=20121127210207",
+        "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/Soraka.move8.ogg/revision/latest?cb=20121127210208"]
     },
     "Swain": {
         "quotes": [],
@@ -399,7 +400,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Twisted Fate": {
+    "TwistedFate": {
         "quotes": [],
         "soundbites": []
     },
@@ -451,7 +452,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Wukong": {
+    "MonkeyKing": {
         "quotes": [],
         "soundbites": []
     },
@@ -459,7 +460,7 @@ const quoteData = {
         "quotes": [],
         "soundbites": []
     },
-    "Xin Zhao": {
+    "XinZhao": {
         "quotes": [],
         "soundbites": []
     },
@@ -510,12 +511,12 @@ function getRandInd(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let randChamp = Object.keys(quoteData);
-let randChampInd = getRandInd(0, randChamp.length - 1);
+let champArr = Object.keys(quoteData);
 const soundbite = document.querySelector("audio");
 
 newquote.onclick = () => {
-    let champion = new Champion(randChamp[randChampInd]);
+    let randChampInd = getRandInd(0, champArr.length - 1);
+    let champion = new Champion(champArr[randChampInd]);
     if (!soundbite) return;
     document.getElementById("splash").src = champion.splashURL;
     document.getElementById("championquote").innerHTML = champion.quote;
