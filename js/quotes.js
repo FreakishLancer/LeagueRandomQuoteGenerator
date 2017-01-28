@@ -191,12 +191,18 @@ const quoteData = {
             "http://vignette1.wikia.nocookie.net/leagueoflegends/images/d/df/Kennen.move6.ogg/revision/latest?cb=20121126180335"]
     },
     "Khazix": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Consume and adapt.", "I ate an optimist once, but I couldn't keep him down."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/d/dd/Khazix.move1.ogg/revision/latest?cb=20121119065718",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/9/9d/Khazix.joke3.ogg/revision/latest?cb=20121119065611"]
     },
     "Kindred": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Wolf: 'Lamb, tell me a story.' Lamb: 'There was once a pale man with dark hair who was very lonely' \n" + 
+                "Wolf: 'Why was it lonely?' Lamb: 'All things must meet this man, so they shunned him.' \n" + 
+                "Wolf: 'Did he chase them all?' Lamb: 'He took an axe and split himself in two right down the middle.' \n" + 
+                "Wolf: 'So he would always have a friend?' Lamb: 'So he would always have a friend.' \n",
+                "Wolf: 'I see water!' Lamb: 'They're called tears.'"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/4/42/Kindred.unknown02.ogg/revision/latest?cb=20151001020407",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Kindred.taunt01.ogg/revision/latest?cb=20150916183248"]
     },
     "Kled": {
         "quotes": [],
@@ -367,8 +373,9 @@ const quoteData = {
         "soundbites": []
     },
     "Sona": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Shall we resolve this dissonance?", "Order through music."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/14/Sona.attack4.ogg/revision/latest?cb=20121120023719",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/5b/Sona.attack2.ogg/revision/latest?cb=20121120023719"]
     },
     "Soraka": {
         "quotes": ["Every step; a new journey.", "Never waste a breath."],
