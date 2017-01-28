@@ -12,9 +12,10 @@ img {
     border-radius: 3.5px;
     position: relative;
     margin: auto;
-    opacity: 0.90;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
+    height: 25%;
+    width: 25%;
 }
 
 figcaption {
