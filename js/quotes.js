@@ -196,73 +196,90 @@ const quoteData = {
             "http://vignette2.wikia.nocookie.net/leagueoflegends/images/9/9d/Khazix.joke3.ogg/revision/latest?cb=20121119065611"]
     },
     "Kindred": {
-        "quotes": ["Wolf: 'Lamb, tell me a story.' Lamb: 'There was once a pale man with dark hair who was very lonely' \n" + 
-                "Wolf: 'Why was it lonely?' Lamb: 'All things must meet this man, so they shunned him.' \n" + 
-                "Wolf: 'Did he chase them all?' Lamb: 'He took an axe and split himself in two right down the middle.' \n" + 
-                "Wolf: 'So he would always have a friend?' Lamb: 'So he would always have a friend.' \n",
+        "quotes": ["Wolf: 'Lamb, tell me a story.' Lamb: 'There was once a pale man with dark hair who was very lonely'<br>" + 
+                "Wolf: 'Why was it lonely?' Lamb: 'All things must meet this man, so they shunned him.'<br>" + 
+                "Wolf: 'Did he chase them all?' Lamb: 'He took an axe and split himself in two right down the middle.'<br>" + 
+                "Wolf: 'So he would always have a friend?' Lamb: 'So he would always have a friend.'<br>",
                 "Wolf: 'I see water!' Lamb: 'They're called tears.'"],
         "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/4/42/Kindred.unknown02.ogg/revision/latest?cb=20151001020407",
             "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Kindred.taunt01.ogg/revision/latest?cb=20150916183248"]
     },
     "Kled": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["I find courage unpredictable. It's total insanity you can rely on!", "There's no such thing as paranoia; your worst fears can come true at any moment."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/a3/Kled_Select.ogg/revision/latest?cb=20160802142452",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/4/4f/Kled.ward10.ogg/revision/latest?cb=20160729193847"]
     },
     "KogMaw": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Hunger never sleep.", "Leave no scraps!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/10/KogMaw.attack3.ogg/revision/latest?cb=20121126170002",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/9/99/KogMaw.attack6.ogg/revision/latest?cb=20121126170003"]
     },
     "Leblanc": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Looks can be deceiving.", "Lying is, like, ninety-five percent of what I do."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/1/1c/LeBlanc.move8.ogg/revision/latest?cb=20121120015614",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/9/9a/LeBlanc.joke2.ogg/revision/latest?cb=20121120015513"]
     },
     "LeeSin": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Master yourself, master the enemy.", "Force is meaningless without skill."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/f/f8/Lee_Sin.move6.ogg/revision/latest?cb=20121119230408",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/a0/Lee_Sin.taunt1.ogg/revision/latest?cb=20121119230408"]
     },
     "Leona": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["I think I broke a nail. Good thing it wasn't mine.", "The sun always rises."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/e/ec/Leona.joke2.ogg/revision/latest?cb=20121119211359",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/b/bd/Leona.move4.ogg/revision/latest?cb=20121119211504"]
     },
     "Lissandra": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["You can't stop an avalanche.", "The world began in ice, and it will end in ice."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/f/f0/Lissandra.attack07.ogg/revision/latest?cb=20130404213022",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/e/e1/Lissandra.taunt03.ogg/revision/latest?cb=20130404213329"]
     },
     "Lucian": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Death at the door? Hmph, no. I am the one who knocks.", "The past is just a ghost."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/d/d4/Lucian.taunt03.ogg/revision/latest?cb=20130713214155",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/8d/Lucian.move07.ogg/revision/latest?cb=20130713214101"]
     },
     "Lulu": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["You'll see more with your eyes close.", "A solid giggle should do the trick."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/6/68/Lulu.move4.ogg/revision/latest?cb=20120611075008",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/a/a2/Lulu.attack4.ogg/revision/latest?cb=20120611074837"]
     },
     "Lux": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Well, a 'double rainbow' is a phenomenon of optics that displays a spectrum of light" + 
+            "due to the sun shining on droplets of moisture in the atmosphere. Does that explain it?",
+            "I love it when a plan comes together."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/7/75/Lux.joke2.ogg/revision/latest?cb=20121120020547",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/9/94/Lux.move3.ogg/revision/latest?cb=20121120020651"]
     },
     "Malphite": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Caught between a rock...and a hard place.", "I'm moving as fast as I can."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/1a/Malphite.joke.ogg/revision/latest?cb=20121127004336",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b7/Malphite.move7.ogg/revision/latest?cb=20121127004409"]
     },
     "Malzahar": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["We are timeless.", "Do not challenge fate's will."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/2/25/Malzahar.move7.ogg/revision/latest?cb=20121126173908",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/a/ad/Malzahar.move8.ogg/revision/latest?cb=20121126173909"]
     },
     "Maokai": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Nature is the truest form of balance. Eat and avoid being eaten.", "You should not defy nature!"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/2a/Maokai.joke1.ogg/revision/latest?cb=20121119232519",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/5/57/Maokai.move5.ogg/revision/latest?cb=20121119232633"]
     },
     "MasterYi": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Anger gives motivation without purpose.", "The key to immortality? Not dying."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/e/e1/MasterYi.move03.ogg/revision/latest?cb=20130713221331",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/4/41/MasterYi.joke03.ogg/revision/latest?cb=20130713221329"]
     },
     "MissFortune": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Fortune doesn't favor fools.", "I always shoot first."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/c/c0/MissFortune_Select.ogg/revision/latest?cb=20121120024652",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/1/19/MissFortune.attack3.ogg/revision/latest?cb=20121120024653"]
     },
     "Mordekaiser": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["No pain, no drain.", "You only need to click once, fool."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/a/ac/Mordekaiser.attack3.ogg/revision/latest?cb=20121126225129",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/6/6e/Mordekaiser.move7.ogg/revision/latest?cb=20121126225228"]
     },
     "Morgana": {
         "quotes": [],
@@ -515,8 +532,9 @@ const quoteData = {
         "soundbites": []
     },
     "Zyra": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Venture off the beaten path.", "So much more to see."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/d/de/Zyra.move10.ogg/revision/latest?cb=20121119080210",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/7e/Zyra.move5.ogg/revision/latest?cb=20121119080209"]
     }
 };
 
@@ -537,17 +555,23 @@ function getRandInd(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let champArr = Object.keys(quoteData);
-const soundbite = document.querySelector("audio");
-
-newquote.onclick = () => {
+function playRandQuote() {
     let randChampInd = getRandInd(0, champArr.length - 1);
     let champion = new Champion(champArr[randChampInd]);
     if (!soundbite) return;
-    document.getElementById("splash").src = champion.splashURL;
+    splash.src = champion.splashURL;
     document.getElementById("championname").innerHTML = champion.name;
     document.getElementById("championquote").innerHTML = champion.quote;
     soundbite.src = champion.soundbite;
     soundbite.play();
-    console.log(champion.quote);
+}
+
+let champArr = Object.keys(quoteData);
+const soundbite = document.querySelector("audio");
+const splash = document.getElementById("splash");
+
+playRandQuote();
+
+newquote.onclick = () => {
+    playRandQuote();
 };
