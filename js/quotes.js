@@ -14,6 +14,26 @@ const quoteData = {
         "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b5/Anivia.attack02.ogg/revision/latest?cb=20130505111643",
             "http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/eb/Anivia.move05.ogg/revision/latest?cb=20130505112958"]
     },
+    "Ahri": {
+        "quotes": ["Don't you trust me?", "How tempting."],
+		"soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/d/d1/Ahri.ogg/revision/latest?cb=20120616024701",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/9/94/Ahri.move3.ogg/revision/latest?cb=20120616024700"]
+    },
+    "Alistar": {
+        "quotes": ["Nothing can hold me back.", "Mess with the bull and you get the horns!"],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/1/13/Alistar.attack4.ogg/revision/latest?cb=20121127051654",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/9/92/Alistar.taunt.ogg/revision/latest?cb=20121127051655"]
+    },
+    "Amumu": {
+        "quotes": ["I thought you'd never pick me.", "Let's be friends forever."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/8b/Amumu_Select.ogg/revision/latest?cb=20121127025804",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/ed/Amumu.joke.ogg/revision/latest?cb=20121127025808"]
+    },
+    "Annie": {
+        "quotes": ["Ashes, ashes, they all fall <em>down</em>.", "Come out, come out, wherever you are!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/f/f9/Annie.attack9.ogg/revision/latest?cb=20130118045323",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/4/40/Annie.move8.ogg/revision/latest?cb=20130118045424"]
+    },
     "Ashe": {
         "quotes": ["Do not confuse mercy for weakness", "Peace requires a steady hand."],
         "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/20/Ashe.move03.ogg/revision/latest?cb=20130505134903",
@@ -29,10 +49,25 @@ const quoteData = {
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/88/Azir.attack05.ogg/revision/latest?cb=20140827014235",
             "http://vignette1.wikia.nocookie.net/leagueoflegends/images/f/f5/Azir.move10.ogg/revision/latest?cb=20140827014714"]
     },
+    "Bard": {
+        "quotes": ["*ootay*", "*plays tune*"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/e/ec/Bard.meepSpawn03.ogg/revision/latest?cb=20150413132259",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/2/2a/Bard.joke01.ogg/revision/latest?cb=20150313231243"]
+    },
+    "Blitzcrank": {
+        "quotes": ["As long as it takes.", "I put the 'go' in 'golem'. That was humor. Other golems find that to be appropriately funny."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/a/a5/Blitzcrank.move5.ogg/revision/latest?cb=20121127005333",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/c/c4/Blitzcrank.joke.ogg/revision/latest?cb=20121127005310"]
+    },
     "Braum": {
         "quotes": ["The heart is the strongest muscle.", "The darker the night, the brighter the stars."],
         "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/89/Braum_Select.ogg/revision/latest?cb=20140504003801",
             "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/0b/Braum.move09.ogg/revision/latest?cb=20140423012403"]
+    },
+    "Brand": {
+        "quotes": ["Ready to set the world on fire? Heheheh....", "Is it hot in here or is it just me?"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/2c/Brand_Select.ogg/revision/latest?cb=20121119224132",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/08/Brand.joke.ogg/revision/latest?cb=20121119224134"]
     },
     "Caitlyn": {
         "quotes": ["Don't be caught flat footing.", "The whole is greater than the sum of its...parts."],
@@ -49,6 +84,16 @@ const quoteData = {
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/9/90/Cassiopeia.move12.ogg/revision/latest?cb=20140831181046",
             "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/03/Cassiopeia.move18.ogg/revision/latest?cb=20140831181131"]
     },
+    "Cho'Gath": {
+        "quotes": ["You have stains upon your soul...perfect.", "Ah...the tangled webs we weave...."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/5/55/Greenterror.attack1.ogg/revision/latest?cb=20120615005627",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/f/f6/Greenterror.joke.ogg/revision/latest?cb=20120615005659"]
+    },
+    "Corki": {
+        "quotes": ["Consider yourself spanked, nugget!", "That just goes to show you you're nothin' but a Whiskey Delta!"],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/66/Corki.attack6.ogg/revision/latest?cb=20121126235202",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/84/Corki.taunt.ogg/revision/latest?cb=20121126235203"]
+    },
     "Darius": {
         "quotes": ["Strength above all.", "Carve a path."],
         "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/74/Darius.move2.ogg/revision/latest?cb=20121119183615",
@@ -64,10 +109,35 @@ const quoteData = {
         "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/65/Draven.attack4.ogg/revision/latest?cb=20120611011108",
             "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/88/Draven.move8.ogg/revision/latest?cb=20120611011308"]
     },
+    "Dr. Mundo": {
+        "quotes": ["Mundo will go where he pleases! *slurps*", "Mundo say his own name a lot, or else he forget! Has happened before."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/6/61/DrMundo.attack4.ogg/revision/latest?cb=20120615005340",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/e/e8/DrMundo.joke.ogg/revision/latest?cb=20120615005340"]
+    },
     "Ekko": {
         "quotes": ["Every rule needs a break.", "I'd rather make mistakes than make nothing at all."],
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/a2/Ekko.move16.ogg/revision/latest?cb=20150513224034",
             "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/80/Ekko.move21.ogg/revision/latest?cb=20150513224104"]
+    },
+    "Elise": {
+        "quotes": ["My true beauty is beneath the skin.", "Every web, a masterpiece."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d2/Elise.move7.ogg/revision/latest?cb=20121119063055",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/9/9a/Elise.move9.ogg/revision/latest?cb=20121119063116"]
+    },
+    "Evelynn": {
+        "quotes": ["Misery loves company.", "It takes a lot of effort to move like this in heels."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/c/c5/Evelynn.attack6.ogg/revision/latest?cb=20121127035708",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/2/2a/Evelynn.move7.ogg/revision/latest?cb=20121127035803"]
+    },
+    "Ezreal": {
+        "quotes": ["Who needs a map?!", "You belong in a museum!"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/6/6a/Ezreal.move9.ogg/revision/latest?cb=20120615010724",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/c/c3/Ezreal.taunt.ogg/revision/latest?cb=20120615010724"]
+    },
+    "Fiddlesticks": {
+        "quotes": ["I haven't got a brain, and soon...neither will you!", "Your bidding, master!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/6/64/Fiddlesticks.joke.ogg/revision/latest?cb=20121127045232",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/8c/Fiddlesticks_Select.ogg/revision/latest?cb=20121127045228"]
     },
     "Fiora": {
         "quotes": ["Strike quickly, strike deftly.", "Precision and grace."],
@@ -93,6 +163,16 @@ const quoteData = {
         "quotes": ["Keep faith in yourself.", "Our deeds shape the future."],
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/4/4c/Garen.move14.ogg/revision/latest?cb=20130914214134",
             "http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/9f/Garen.move12.ogg/revision/latest?cb=20130914214134"]
+    },
+    "Gnar": {
+        "quotes": ["Shoo shoo pana, hahaha-ha!", "Demaglio!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/ec/Gnar.joke01.ogg/revision/latest?cb=20140805221347",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/6d/Gnar.tauntGaren.ogg/revision/latest?cb=20140805221638"]
+    },
+    "Gragas": {
+        "quotes": ["I'll drink you under the table, scrub!", "The only time I have a drinking problem is when I spill it!"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Gragas.taunt.ogg/revision/latest?cb=20121126225829",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/c/c6/Gragas.joke.ogg/revision/latest?cb=20121126225828"]
     },
     "Graves": {
         "quotes": ["Hope you weren't planning to die of natural causes.", "I like my enemies two ways: dead, or about to be."],
@@ -245,7 +325,7 @@ const quoteData = {
             "http://vignette4.wikia.nocookie.net/leagueoflegends/images/a/a2/Lulu.attack4.ogg/revision/latest?cb=20120611074837"]
     },
     "Lux": {
-        "quotes": ["Well, a 'double rainbow' is a phenomenon of optics that displays a spectrum of light" + 
+        "quotes": ["Well, a 'double rainbow' is a phenomenon of optics that displays a spectrum of light " + 
             "due to the sun shining on droplets of moisture in the atmosphere. Does that explain it?",
             "I love it when a plan comes together."],
         "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/7/75/Lux.joke2.ogg/revision/latest?cb=20121120020547",
@@ -282,112 +362,139 @@ const quoteData = {
             "http://vignette3.wikia.nocookie.net/leagueoflegends/images/6/6e/Mordekaiser.move7.ogg/revision/latest?cb=20121126225228"]
     },
     "Morgana": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Do not dally!", "Not all angels are good."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/bd/Morgana.attack5.ogg/revision/latest?cb=20121127041526",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/6/68/Morgana.joke.ogg/revision/latest?cb=20121127041527"]
     },
     "Nami": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Sometimes, you're the catch. Sometimes, you're the bait.", "The softest water wears down the hardest rock."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/0e/Nami.joke1.ogg/revision/latest?cb=20121118231231",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/4/4a/Nami.move11.ogg/revision/latest?cb=20121118231518"]
     },
     "Nasus": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The past is a tapestry of what lies ahead.", "Some things must remain buried."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/0/0d/Nasus.move16.ogg/revision/latest?cb=20131031232718",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/4/45/Nasus.move07.ogg/revision/latest?cb=20131031232507"]
     },
     "Nautilus": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Forward, forward.", "Peer into the darkness."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/4/4c/Nautilus.move3.ogg/revision/latest?cb=20120616030051",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/85/Nautilus.move6.ogg/revision/latest?cb=20120616030109"]
     },
     "Nidalee": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The untamed know no fear.", "Instinct guides my steps."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/9b/Nidalee.attack6.ogg/revision/latest?cb=20121126232420",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/3/3e/Nidalee.move6.ogg/revision/latest?cb=20121126232502"]
     },
     "Nocturne": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Are you getting tired yet?", "Afraid of the dark?"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/1/14/Nocturne.move3.ogg/revision/latest?cb=20121119231208",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/a/a0/Nocturne.move6.ogg/revision/latest?cb=20121119231209"]
     },
     "Nunu": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Let's make tracks!", "Don't make the yeti angry. You won't like him when he's angry!"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/7e/Nunu.attack3.ogg/revision/latest?cb=20121127200940",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/3/3d/Nunu.taunt.ogg/revision/latest?cb=20121127200942"]
     },
     "Olaf": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Leave nothing behind!", "The worth of a man can be measured by the length of his beard, and the girth of this belt buckle."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/8b/Olaf_Select.ogg/revision/latest?cb=20121126172442",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/5/54/Olaf.joke.ogg/revision/latest?cb=20121126172444"]
     },
     "Orianna": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Time tick-ticks away.", "When you fall, you get right back up."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/c/ca/Oriana.move8.ogg/revision/latest?cb=20121119214603",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/4/4f/Oriana.joke2.ogg/revision/latest?cb=20121119214432"]
     },
     "Pantheon": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Getting kicked into a well is the least of your worries!", "Honor compels me!"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/0/0b/Pantheon.taunt.ogg/revision/latest?cb=20121126230825",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/9/97/Pantheon.move6.ogg/revision/latest?cb=20121126230912"]
     },
     "Poppy": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Hmm... if I were a hero, where would I hide...?", "Some things are too important to give up on."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/f/f8/Poppy.start03.ogg/revision/latest?cb=20151125180806",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/f/f4/Poppy.move10.ogg/revision/latest?cb=20151125180700"]
     },
     "Quinn": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Still heart, steady aim.", "A bird's eye view is the best advantage."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/7/71/Quinn.attack03.ogg/revision/latest?cb=20130215043904",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/80/Quinn.move02.ogg/revision/latest?cb=20130215044150"]
     },
     "Rammus": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Okay.", "Ok."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d9/Rammus_Select.ogg/revision/latest?cb=20121127014815",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/1/1b/Rammus.attack3.ogg/revision/latest?cb=20121127014817"]
     },
     "RekSai": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["*Roar*", "*Rasp*"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/0/06/RekSai.taunt01.ogg/revision/latest?cb=20141216180223",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/8b/Reksai_Select.ogg/revision/latest?cb=20141212185241"]
     },
     "Renekton": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Light meat, dark meat, it's all the same.", "What? Do I have someone in my teeth?"],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/66/Renekton.attack6.ogg/revision/latest?cb=20121120004400", 
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/f/f9/Renekton.joke.ogg/revision/latest?cb=20121120004400"]
     },
     "Rengar": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Comfort breeds weakness.", "There is the hunter and the hunted."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/9/97/Rengar.move9.ogg/revision/latest?cb=20121119073339",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/9/97/Rengar.move9.ogg/revision/latest?cb=20121119073339"]
     },
     "Riven": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["A sword mirrors its owner.", "What is broken can be reforged."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/7a/Riven.move9.ogg/revision/latest?cb=20121119203409",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/a/ad/Riven_Select.ogg/revision/latest?cb=20121119203254"]
     },
     "Rumble": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The bigger they are, the harder I hit 'em.", "You don't have to tell me twice."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/c/ce/Rumble.move7.ogg/revision/latest?cb=20121119221721",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/c/ce/Rumble.move7.ogg/revision/latest?cb=20121119221721"]
     },
     "Ryze": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Okay, fine, here's a magic trick. Tada.", "Things to do today: find food, build shelter, fix the world."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/2/28/Ryze.joke02.ogg/revision/latest?cb=20160709140253",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/f/fb/Ryze.start03.ogg/revision/latest?cb=20160709142104"]
     },
     "Sejuani": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Fight or make room for those who will.", "Trust nothing but your strength."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/9/97/Sejuani.move02.ogg/revision/latest?cb=20130402233814",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/5/5f/Sejuani_select.ogg/revision/latest?cb=20130506185811"]
     },
     "Shaco": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["For my next trick, I'll make you disappear!", "Why so serious?"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/f/f8/Shaco.joke.ogg/revision/latest?cb=20121126233710",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/11/Shaco.taunt.ogg/revision/latest?cb=20121126233710"]
     },
     "Shen": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["If light travels so fast, how come it's never caught a ninja?", "You're already dead. You just haven't caught up yet."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/5/57/Shen.joke.ogg/revision/latest?cb=20121126183027",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/7f/Shen.taunt.ogg/revision/latest?cb=20121126183126"]
     },
     "Shyvana": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["What do you get when a dragon sneezes? Out of the way.", "Come get a glimpse into the belly of the beast!"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/8/8e/Shyvana.joke.ogg/revision/latest?cb=20120618062751",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/3/3a/Shyvana.taunt.ogg/revision/latest?cb=20120618062820"]
     },
     "Singed": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["How about a drink?", "To shake, or not to shake."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/5/5b/Singed_Select.ogg/revision/latest?cb=20121127040521",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/5/59/Singed.attack4.ogg/revision/latest?cb=20121127040522"]
     },
     "Sion": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The quiet...eats at me.", "I had a funny bone, then I crushed it. Laugh, worm!"],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/4/4e/Sion.move08.ogg/revision/latest?cb=20140927044315",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/1/1d/Sion.joke01.ogg/revision/latest?cb=20140927044200"]
     },
     "Sivir": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The only thing I look up to is the sky.", "Laws are whatever works at the time."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/8/86/Sivir.move12.ogg/revision/latest?cb=20131011004729",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/5/56/Sivir.move09.ogg/revision/latest?cb=20131011004729"]
     },
     "Skarner": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Oh no! I seem to have stepped on one of my cousins!", "This world is so strange."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/6/68/Skarner.joke2.ogg/revision/latest?cb=20121119210330",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/02/Skarner.move5.ogg/revision/latest?cb=20121119205534"]
     },
     "Sona": {
         "quotes": ["Shall we resolve this dissonance?", "Order through music."],
@@ -400,67 +507,84 @@ const quoteData = {
         "http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/Soraka.move8.ogg/revision/latest?cb=20121127210208"]
     },
     "Swain": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The early bird guts the worm.", "My destination is absolute."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/3/37/Swain_Select.ogg/revision/latest?cb=20121120021800",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/b/bd/Swain.move2.ogg/revision/latest?cb=20121120021802"]
     },
     "Syndra": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["People fear what they cannot understand.", "Barriers exist to be broken."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/08/Syndra.move7.ogg/revision/latest?cb=20121119071138",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/ac/Syndra.MaxQ1.ogg/revision/latest?cb=20121119071231"]
     },
     "TahmKench": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["It is the heart from which the darkest water flows.", "Everyone ends downriver...eventually."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/4/49/TahmKench.start04.ogg/revision/latest?cb=20150624151147",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/b/bf/TahmKench.move10.ogg/revision/latest?cb=20150624150942"]
     },
     "Taliyah": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Every tapestry begins with a single stitch.", "A stone can't be polished without a little friction."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/c/c4/Taliyah.startSummonersRift04.ogg/revision/latest?cb=20160507153916",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d1/Taliyah.firstBloodEnemy01.ogg/revision/latest?cb=20160507153237"]
     },
     "Talon": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Only fools pledge life to honor.", "I never compromise."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/e0/Talon.move6.ogg/revision/latest?cb=20121119204516",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/e0/Talon.move6.ogg/revision/latest?cb=20121119204516"]
     },
     "Taric": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The climb may be long, but the view is worth it.", "Beauty can stir one's heart...or stop it."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/5/54/Taric.start05.ogg/revision/latest?cb=20160407224328",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/0/0f/Taric.attack05.ogg/revision/latest?cb=20160407223524"]
     },
     "Teemo": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Never underestimate the power of the Scout's code.", "Size doesn't mean everything."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/f/fb/Teemo.taunt.ogg/revision/latest?cb=20120619062518",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/f/f2/Teemo.joke.ogg/revision/latest?cb=20120619062518"]
     },
     "Thresh": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["What is the worth of a soul?", "There is life. There is death. And then there is me."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/81/Thresh.joke2.ogg/revision/latest?cb=20130108052842",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/81/Thresh.joke2.ogg/revision/latest?cb=20130108052842"]
     },
     "Tristana": {
-
+        "quotes": ["You don't hurt 'em if you don't hit 'em.", "Winners don't duck."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/ba/Tristana.move07.ogg/revision/latest?cb=20150114224817",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/a2/Tristana.move10.ogg/revision/latest?cb=20150114224820"]
     },
     "Trundle": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["You got a problem with me? Join the club!", "You can never bash something too many times."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/d/df/Trundle.taunt02.ogg/revision/latest?cb=20130402225434",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/3/3f/Trundle.attack07.ogg/revision/latest?cb=20130402225027"]
     },
     "Tryndamere": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["My right arm is a lot stronger than my left arm.", "This'll be a slaughter."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/b/b2/Tryndamere.joke.ogg/revision/latest?cb=20121127032834",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/6/6a/Tryndamere_Select.ogg/revision/latest?cb=20120616030500"]
     },
     "TwistedFate": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Cheater's just a fancy word for winner.", "Only a fool plays the hand he's dealt."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/6/6e/TwistedFate.joke2.ogg/revision/latest?cb=20121127044143",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/7/7b/TwistedFate.taunt2.ogg/revision/latest?cb=20121127044325"]
     },
     "Twitch": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Always pack a snack a month in advance!", "What doesn't kill you just isn't finished yet."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/a3/Twitch.joke01.ogg/revision/latest?cb=20140404224937",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/04/Twitch_Select_new.ogg/revision/latest?cb=20140410235401"]
     },
     "Udyr": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["If PETA asks, this fur is fake.", "Weapons are for the weak."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/0/0c/Udyr.joke.ogg/revision/latest?cb=20121126233224",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/5/59/Udyr.attack2.ogg/revision/latest?cb=20121126233222"]
     },
     "Urgot": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Eternal life...endless torture.", "Existence is torment."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/0/0f/Urgot_Select.ogg/revision/latest?cb=20121120025828",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/d3/Urgot.move8.ogg/revision/latest?cb=20121120025916"]
     },
     "Varus": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Beware a man with nothing to lose.", "When you dance with death, lead."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/2/2b/Varus.move1.ogg/revision/latest?cb=20121119184648",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/d/dd/Varus.joke2.ogg/revision/latest?cb=20121119184526"]
     },
     "Vayne": {
         "quotes": ["In the dark, all is laid bare.", "The dark should fear me."],
@@ -468,68 +592,83 @@ const quoteData = {
         "http://vignette2.wikia.nocookie.net/leagueoflegends/images/b/b1/Vayne.move8.ogg/revision/latest?cb=20121119215814"]
     },
     "Veigar": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["What's black and blue and is about to show you the definition of pain?", "I <em>am</em> evil! Stop laughing!"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/6/61/Veigar.joke.ogg/revision/latest?cb=20121127013315",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b1/Veigar.attack7.ogg/revision/latest?cb=20121127013314"]
     },
     "Velkoz": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["There is much to learn about this world.", "Humans: simple, messy, yet exceptional."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b3/VelKoz.move07.ogg/revision/latest?cb=20140212220910",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/4/43/VelKoz.move08.ogg/revision/latest?cb=20140212220910"]
     },
     "Vi": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Sometimes, you gotta <em>make</em> a door.", "I'm doing this <em>my</em> way."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/f/fb/Vi.move10.ogg/revision/latest?cb=20121208081826",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/8/8c/Vi.move4.ogg/revision/latest?cb=20121208081728"]
     },
     "Viktor": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Adapt or be removed.", "Function over form."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/b/be/Viktor.attack6.ogg/revision/latest?cb=20120616032909",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/2/25/Viktor.move7.ogg/revision/latest?cb=20120616032934"]
     },
     "Vladimir": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["You look like someone who's got a lot going on beneath the surface.", "Go ahead, be negative. You'll be just my type."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/d/d5/Vladimir.taunt.ogg/revision/latest?cb=20121126162603",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/04/Vladimir.joke.ogg/revision/latest?cb=20121126162448"]
     },
     "Volibear": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Trust your instincts", "Hmm, I suppose you're expecting some unbearable pun."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/3/39/Volibear.move6.ogg/revision/latest?cb=20121119194201",
+            "http://vignette3.wikia.nocookie.net/leagueoflegends/images/f/f5/Volibear.joke.ogg/revision/latest?cb=20121119194102"]
     },
     "Warwick": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Blood runs...they all run"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/c/c6/Warwick_Select_new.ogg/revision/latest?cb=20170112015852"]
     },
     "MonkeyKing": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Never settle for second.", "No matter how far it is to the top, it's still within my grasp!"],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/0/08/Wukong.move8.ogg/revision/latest?cb=20121119210752",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/f/f2/Wukong.joke1.ogg/revision/latest?cb=20121119210655"]
     },
     "Xerath": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The world may crumble, but I shall remain.", "Emotions are only distractions."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/e/e0/Xerath.move09.ogg/revision/latest?cb=20140130212918",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/d/da/Xerath.move10.ogg/revision/latest?cb=20140130212918"]
     },
     "XinZhao": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The warrior's spirit is never broken.", "Only actions truly speak."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/0e/XinZhao.move4.ogg/revision/latest?cb=20121126164947",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/7/72/XinZhao.move9.ogg/revision/latest?cb=20121126164949"]
     },
     "Yasuo": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["The road to ruin is shorter than you think.", "Is a leaf's only purpose to fall?"],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/7/76/Yasuo.move07.ogg/revision/latest?cb=20131123012809",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/2/20/Yasuo.move18.ogg/revision/latest?cb=20131123012853"]
     },
     "Yorick": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["We're dead much longer than we are alive.", "Death is not always a release."],
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/62/Yorick.move04.ogg/revision/latest?cb=20160830194410",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/1/10/Yorick.move31.ogg/revision/latest?cb=20160830194510"]
     },
     "Zac": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["It's not how much you can lift. It's how good you look!", "Go big...or go home!"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/3/31/Zac.taunt01.ogg/revision/latest?cb=20130316035607",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/7/7a/Zac.taunt02.ogg/revision/latest?cb=20130316035607"]
     },
     "Zed": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["None escape their shadow.", "Tradition is the corpse of wisdom."],
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/8/84/Zed.attack8.ogg/revision/latest?cb=20121119061143",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/0/0f/Zed.move10.ogg/revision/latest?cb=20121119061458"]
     },
     "Ziggs": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["I like my enemies like I like my bombs: about to explode.", "What do you mean this doesn't look safe?"],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/8e/Ziggs.taunt2.ogg/revision/latest?cb=20120616031316",
+            "http://vignette4.wikia.nocookie.net/leagueoflegends/images/a/af/Ziggs.move7.ogg/revision/latest?cb=20120616031315"]
     },
     "Zilean": {
-        "quotes": [],
-        "soundbites": []
+        "quotes": ["Time flies like an arrow; fruit flies like banana.", "All in good time."],
+        "soundbites": ["http://vignette3.wikia.nocookie.net/leagueoflegends/images/e/ef/Chronokeeper.joke.ogg/revision/latest?cb=20120616031936",
+            "http://vignette1.wikia.nocookie.net/leagueoflegends/images/6/6f/Chronokeeper.attack4.ogg/revision/latest?cb=20120616031935"]
     },
     "Zyra": {
         "quotes": ["Venture off the beaten path.", "So much more to see."],
@@ -540,12 +679,13 @@ const quoteData = {
 
 class Champion {
     constructor(name) {
-        let randomQuote = getRandInd(0, 1);
-
         this.name = name;
         this.splashURL = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${this.name}_0.jpg`;
-        this.quote = quoteData[this.name]["quotes"][randomQuote];
-        this.soundbite = quoteData[this.name]["soundbites"][randomQuote];
+
+        let randQuoteIndex = getRandInd(0, quoteData[this.name]["quotes"].length - 1);
+
+        this.quote = quoteData[this.name]["quotes"][randQuoteIndex];
+        this.soundbite = quoteData[this.name]["soundbites"][randQuoteIndex];
     }
 }
 
