@@ -1,51 +1,77 @@
 body {
-    background: linear-gradient(-90deg, lightblue, lightcoral);
+    background-color: black;
     text-align: center;
     top: 50%;
+    color: white;
 }
 
 h1 {
+    font-family: "Merriweather", "Arial", serif;
+    font-weight: normal;
     position: relative;
 }
 
+h2 {
+    font-family: "Merriweather", "Arial", serif;
+    font-weight: bold;
+    position: relative;
+    font-size: .8em;
+    padding-left: 350px;
+}
+
 img {
-    border-radius: 3.5px;
+    border-radius: 10px;
     position: relative;
     margin: auto;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     height: 25%;
     width: 25%;
+    padding-bottom: 20px;
 }
 
 figcaption {
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    margin: inherit;
+}
+
+#championquote {
+    font-family: "Noticia Text", "Tahoma", serif, sans-serif;
 }
 
 #quotecenter {
-    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-#newquote {
-    background-color: lightblue;
+button {
+    background-color: #85D7F2;
     border-style: none;
     border-radius: 3.5px;
     font-size: 14px;
+    font-weight: bolder;
     padding: 6px 10px;
     text-decoration: none;
     display: inline-block;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
 }
 
-#newquote:hover {
+button:hover {
     background-color: white;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(0, 0, 0, 0.15);
     color: black;
     cursor: pointer;
 }
 
-img.transparent {
-    opacity: 0;
+button:active {
+    background-color: #F2A085;
+    transition-duration: 0s;
+}
+
+footer {
+    padding-top: 300px;
+    font-family: "Noticia Text", "Tahoma", serif, sans-serif;
 }

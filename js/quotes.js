@@ -276,12 +276,8 @@ const quoteData = {
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/9/9d/Khazix.joke3.ogg/revision/latest?cb=20121119065611"]
     },
     "Kindred": {
-        "quotes": ["Wolf: 'Lamb, tell me a story.' Lamb: 'There was once a pale man with dark hair who was very lonely'<br>" + 
-                "Wolf: 'Why was it lonely?' Lamb: 'All things must meet this man, so they shunned him.'<br>" + 
-                "Wolf: 'Did he chase them all?' Lamb: 'He took an axe and split himself in two right down the middle.'<br>" + 
-                "Wolf: 'So he would always have a friend?' Lamb: 'So he would always have a friend.'<br>",
-                "Wolf: 'I see water!' Lamb: 'They're called tears.'"],
-        "soundbites": ["https://vignette3.wikia.nocookie.net/leagueoflegends/images/4/42/Kindred.unknown02.ogg/revision/latest?cb=20151001020407",
+        "quotes": ["<b>Lamb:</b> Never one... <b>Wolf:</b> ...without the other. ", "<b>Wolf:</b> I see water! <b>Lamb:</b> They're called tears."],
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/af/Kindred_Select.ogg/revision/latest?cb=20150919195034",
             "https://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Kindred.taunt01.ogg/revision/latest?cb=20150916183248"]
     },
     "Kled": {
@@ -728,22 +724,27 @@ function parseSpecialChampNames(champName) {
 }
 
 function playRandQuote() {
-    let randChampInd = getRandInd(0, champArr.length - 1);
-    let champion = new Champion(champArr[randChampInd]);
-    if (!soundbite) return;
-    splash.src = champion.splashURL;
-    document.getElementById("championname").innerHTML = parseSpecialChampNames(champion.name);
-    document.getElementById("championquote").innerHTML = champion.quote;
-    soundbite.src = champion.soundbite;
-    soundbite.play();
+    randChampInd = getRandInd(0, Object.keys(quoteData).length - 1);
+    randChamp = new Champion(Object.keys(quoteData)[randChampInd]);
+    document.getElementById("splash").src = randChamp.splashURL;
+    document.getElementById("championname").innerHTML = parseSpecialChampNames(randChamp.name);
+    document.getElementById("splash").alt = `${parseSpecialChampNames(randChamp.name)} splash`;
+    document.getElementById("championquote").innerHTML = randChamp.quote;
+    document.querySelector("audio").src = randChamp.soundbite;
+    document.querySelector("audio").play();
+    quoteAndChampStr = `${randChamp.quote} - ${parseSpecialChampNames(randChamp.name)}`;
 }
 
-let champArr = Object.keys(quoteData);
-const soundbite = document.querySelector("audio");
-const splash = document.getElementById("splash");
+let randChampInd,
+    randChamp,
+    quoteAndChampStr;
 
 playRandQuote();
 
 newquote.onclick = () => {
     playRandQuote();
+};
+
+tweet.onclick = () => {
+    document.getElementById("tweet-button").href = `https://twitter.com/intent/tweet?text=${quoteAndChampStr}`;
 };

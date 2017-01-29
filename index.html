@@ -9,22 +9,27 @@
         <meta name="keywords" content="League of Legends, quotes, video game, MOBA, champions">
         <meta name="author" content="Tony Pham">
         <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Noticia+Text" rel="stylesheet">
     </head>
     <body>
-        <h1>Random League of Legends Champion Quote Generator</h1>
+        <h1>League of Legends Random Champion Quote Generator</h1>
         <div id="quotecenter">
             <figure>
-                <img id="splash" src="" alt="Champion splash">
+                <img id="splash" src="" alt="">
+                <div>
+                    <button id="newquote" type="button">New Quote</button>
+                    <a href="" id="tweet-button" data-size="large" target="newwindow">
+                        <button id="tweet">Tweet</button>
+                    </a>
+                    <audio src=""></audio>
+                </div>
                 <figcaption>
-                    <blockquote id="championquote">Quote</blockquote>
-                    <h2 id="championname">Champion</h2>
+                    <blockquote>"<span id="championquote"></span>"</blockquote>
+                    <h2 id="championname"></h2>
                 </figcaption>
             </figure>
         </div>
-        <div>
-            <button id="newquote" type="button">New Quote</button>
-            <audio src=""></audio>
-        </div>
+    <footer>Made by Freak(ish)lancer</footer>
     <script type="text/javascript" src="js/quotes.js"></script>
     </body>
 </html>
