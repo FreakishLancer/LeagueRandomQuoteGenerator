@@ -1,7 +1,13 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     background-color: black;
     text-align: center;
-    top: 50%;
+    top: 100%;
     color: white;
 }
 
@@ -24,9 +30,8 @@ img {
     position: relative;
     margin: auto;
     transition-duration: 1s;
-    -webkit-transition-duration: 1s;
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
     padding-bottom: 20px;
 }
 
@@ -40,13 +45,8 @@ figcaption {
     font-family: "Noticia Text", "Tahoma", serif, sans-serif;
 }
 
-#quotecenter {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-button {
+button, #tweet {
+    font-family: "Tahoma", serif, sans-serif;
     background-color: #85D7F2;
     border-style: none;
     border-radius: 3.5px;
@@ -54,24 +54,35 @@ button {
     font-weight: bolder;
     padding: 6px 10px;
     text-decoration: none;
-    display: inline-block;
     transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
+    color: black;
 }
 
-button:hover {
+#tweet {
+    padding: 7px 10px;
+}
+
+button:hover, #tweet:hover {
     background-color: white;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(0, 0, 0, 0.15);
-    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
 
-button:active {
+button:active, #tweet:active {
     background-color: #F2A085;
     transition-duration: 0s;
 }
 
 footer {
-    padding-top: 300px;
-    font-family: "Noticia Text", "Tahoma", serif, sans-serif;
+    font-size: .8em;
+	font-family: "Noticia Text", "Tahoma", serif, sans-serif;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+}
+
+.footer-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }

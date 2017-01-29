@@ -30,7 +30,7 @@ const quoteData = {
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/e/ed/Amumu.joke.ogg/revision/latest?cb=20121127025808"]
     },
     "Annie": {
-        "quotes": ["Ashes, ashes, they all fall <em>down</em>.", "Come out, come out, wherever you are!"],
+        "quotes": ["Ashes, ashes, they all fall down.", "Come out, come out, wherever you are!"],
         "soundbites": ["https://vignette2.wikia.nocookie.net/leagueoflegends/images/f/f9/Annie.attack9.ogg/revision/latest?cb=20130118045323",
             "https://vignette1.wikia.nocookie.net/leagueoflegends/images/4/40/Annie.move8.ogg/revision/latest?cb=20130118045424"]
     },
@@ -276,7 +276,7 @@ const quoteData = {
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/9/9d/Khazix.joke3.ogg/revision/latest?cb=20121119065611"]
     },
     "Kindred": {
-        "quotes": ["<b>Lamb:</b> Never one... <b>Wolf:</b> ...without the other. ", "<b>Wolf:</b> I see water! <b>Lamb:</b> They're called tears."],
+        "quotes": ["LAMB: Never one... WOLF: ...without the other. ", "WOLF: I see water! LAMB: They're called tears."],
         "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/a/af/Kindred_Select.ogg/revision/latest?cb=20150919195034",
             "https://vignette3.wikia.nocookie.net/leagueoflegends/images/7/72/Kindred.taunt01.ogg/revision/latest?cb=20150916183248"]
     },
@@ -588,7 +588,7 @@ const quoteData = {
         "https://vignette2.wikia.nocookie.net/leagueoflegends/images/b/b1/Vayne.move8.ogg/revision/latest?cb=20121119215814"]
     },
     "Veigar": {
-        "quotes": ["What's black and blue and is about to show you the definition of pain?", "I <em>am</em> evil! Stop laughing!"],
+        "quotes": ["What's black and blue and is about to show you the definition of pain?", "I an evil! Stop laughing!"],
         "soundbites": ["https://vignette4.wikia.nocookie.net/leagueoflegends/images/6/61/Veigar.joke.ogg/revision/latest?cb=20121127013315",
             "https://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b1/Veigar.attack7.ogg/revision/latest?cb=20121127013314"]
     },
@@ -598,7 +598,7 @@ const quoteData = {
             "https://vignette4.wikia.nocookie.net/leagueoflegends/images/4/43/VelKoz.move08.ogg/revision/latest?cb=20140212220910"]
     },
     "Vi": {
-        "quotes": ["Sometimes, you gotta <em>make</em> a door.", "I'm doing this <em>my</em> way."],
+        "quotes": ["Sometimes, you gotta makn a door.", "I'm doing this mn way."],
         "soundbites": ["https://vignette1.wikia.nocookie.net/leagueoflegends/images/f/fb/Vi.move10.ogg/revision/latest?cb=20121208081826",
             "https://vignette3.wikia.nocookie.net/leagueoflegends/images/8/8c/Vi.move4.ogg/revision/latest?cb=20121208081728"]
     },
@@ -746,5 +746,5 @@ newquote.onclick = () => {
 };
 
 tweet.onclick = () => {
-    document.getElementById("tweet-button").href = `https://twitter.com/intent/tweet?text=${quoteAndChampStr}`;
+    document.getElementById("tweet").href = `https://twitter.com/intent/tweet?text=${quoteAndChampStr}`;
 };
