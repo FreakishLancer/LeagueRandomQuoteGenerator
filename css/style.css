@@ -12,16 +12,16 @@ body {
 }
 
 h1 {
-    font-family: "Merriweather", "Arial", serif;
+    font-family: "Merriweather", "Times", serif;
     font-weight: normal;
     position: relative;
 }
 
 h2 {
-    font-family: "Merriweather", "Arial", serif;
+    font-family: "Candara", "Tahoma", sans-serif;
     font-weight: bold;
     position: relative;
-    font-size: .8em;
+    font-size: 1em;
     padding-left: 350px;
 }
 
@@ -32,7 +32,8 @@ img {
     transition-duration: 1s;
     height: 30%;
     width: 30%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 0.05px solid white;
 }
 
 figcaption {
@@ -46,7 +47,7 @@ figcaption {
 }
 
 button, #tweet {
-    font-family: "Tahoma", serif, sans-serif;
+    font-family: "Tahoma", sans-serif;
     background-color: #85D7F2;
     border-style: none;
     border-radius: 3.5px;

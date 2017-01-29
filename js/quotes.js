@@ -35,7 +35,7 @@ const quoteData = {
             "https://vignette1.wikia.nocookie.net/leagueoflegends/images/4/40/Annie.move8.ogg/revision/latest?cb=20130118045424"]
     },
     "Ashe": {
-        "quotes": ["Do not confuse mercy for weakness", "Peace requires a steady hand."],
+        "quotes": ["Do not confuse mercy for weakness.", "Peace requires a steady hand."],
         "soundbites": ["https://vignette3.wikia.nocookie.net/leagueoflegends/images/2/20/Ashe.move03.ogg/revision/latest?cb=20130505134903",
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/d/db/Ashe.move04.ogg/revision/latest?cb=20130505134911"]
     },
@@ -393,7 +393,7 @@ const quoteData = {
             "https://vignette1.wikia.nocookie.net/leagueoflegends/images/3/3d/Nunu.taunt.ogg/revision/latest?cb=20121127200942"]
     },
     "Olaf": {
-        "quotes": ["Leave nothing behind!", "The worth of a man can be measured by the length of his beard, and the girth of this belt buckle."],
+        "quotes": ["Leave nothing behind!", "The worth of a man can be measured by the length of his beard and the girth of his belt buckle."],
         "soundbites": ["https://vignette1.wikia.nocookie.net/leagueoflegends/images/8/8b/Olaf_Select.ogg/revision/latest?cb=20121126172442",
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/5/54/Olaf.joke.ogg/revision/latest?cb=20121126172444"]
     },
@@ -434,7 +434,7 @@ const quoteData = {
     },
     "Rengar": {
         "quotes": ["Comfort breeds weakness.", "There is the hunter and the hunted."],
-        "soundbites": ["https://vignette2.wikia.nocookie.net/leagueoflegends/images/9/97/Rengar.move9.ogg/revision/latest?cb=20121119073339",
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/d/dd/Rengar.move4.ogg/revision/latest?cb=20121119073338",
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/9/97/Rengar.move9.ogg/revision/latest?cb=20121119073339"]
     },
     "Riven": {
@@ -444,7 +444,7 @@ const quoteData = {
     },
     "Rumble": {
         "quotes": ["The bigger they are, the harder I hit 'em.", "You don't have to tell me twice."],
-        "soundbites": ["https://vignette4.wikia.nocookie.net/leagueoflegends/images/c/ce/Rumble.move7.ogg/revision/latest?cb=20121119221721",
+        "soundbites": ["http://vignette2.wikia.nocookie.net/leagueoflegends/images/f/fb/Rumble.attack6.ogg/revision/latest?cb=20121119221622",
             "https://vignette4.wikia.nocookie.net/leagueoflegends/images/c/ce/Rumble.move7.ogg/revision/latest?cb=20121119221721"]
     },
     "Ryze": {
@@ -524,7 +524,7 @@ const quoteData = {
     },
     "Talon": {
         "quotes": ["Only fools pledge life to honor.", "I never compromise."],
-        "soundbites": ["https://vignette2.wikia.nocookie.net/leagueoflegends/images/e/e0/Talon.move6.ogg/revision/latest?cb=20121119204516",
+        "soundbites": ["http://vignette1.wikia.nocookie.net/leagueoflegends/images/1/16/Talon.move7.ogg/revision/latest?cb=20121119204517",
             "https://vignette2.wikia.nocookie.net/leagueoflegends/images/e/e0/Talon.move6.ogg/revision/latest?cb=20121119204516"]
     },
     "Taric": {
@@ -539,8 +539,8 @@ const quoteData = {
     },
     "Thresh": {
         "quotes": ["What is the worth of a soul?", "There is life. There is death. And then there is me."],
-        "soundbites": ["https://vignette2.wikia.nocookie.net/leagueoflegends/images/8/81/Thresh.joke2.ogg/revision/latest?cb=20130108052842",
-            "https://vignette2.wikia.nocookie.net/leagueoflegends/images/8/81/Thresh.joke2.ogg/revision/latest?cb=20130108052842"]
+        "soundbites": ["http://vignette4.wikia.nocookie.net/leagueoflegends/images/3/38/Thresh.move8.ogg/revision/latest?cb=20130108052735",
+            "http://vignette2.wikia.nocookie.net/leagueoflegends/images/8/81/Thresh.joke2.ogg/revision/latest?cb=20130108052842"]
     },
     "Tristana": {
         "quotes": ["You don't hurt 'em if you don't hit 'em.", "Winners don't duck."],
@@ -588,7 +588,7 @@ const quoteData = {
         "https://vignette2.wikia.nocookie.net/leagueoflegends/images/b/b1/Vayne.move8.ogg/revision/latest?cb=20121119215814"]
     },
     "Veigar": {
-        "quotes": ["What's black and blue and is about to show you the definition of pain?", "I an evil! Stop laughing!"],
+        "quotes": ["What's black and blue and is about to show you the definition of pain?", "I am evil! Stop laughing!"],
         "soundbites": ["https://vignette4.wikia.nocookie.net/leagueoflegends/images/6/61/Veigar.joke.ogg/revision/latest?cb=20121127013315",
             "https://vignette1.wikia.nocookie.net/leagueoflegends/images/b/b1/Veigar.attack7.ogg/revision/latest?cb=20121127013314"]
     },
@@ -598,7 +598,7 @@ const quoteData = {
             "https://vignette4.wikia.nocookie.net/leagueoflegends/images/4/43/VelKoz.move08.ogg/revision/latest?cb=20140212220910"]
     },
     "Vi": {
-        "quotes": ["Sometimes, you gotta makn a door.", "I'm doing this mn way."],
+        "quotes": ["Sometimes, you gotta make a door.", "I'm doing this my way."],
         "soundbites": ["https://vignette1.wikia.nocookie.net/leagueoflegends/images/f/fb/Vi.move10.ogg/revision/latest?cb=20121208081826",
             "https://vignette3.wikia.nocookie.net/leagueoflegends/images/8/8c/Vi.move4.ogg/revision/latest?cb=20121208081728"]
     },
@@ -618,7 +618,7 @@ const quoteData = {
             "https://vignette3.wikia.nocookie.net/leagueoflegends/images/f/f5/Volibear.joke.ogg/revision/latest?cb=20121119194102"]
     },
     "Warwick": {
-        "quotes": ["Blood runs...they all run"],
+        "quotes": ["Blood runs...they all run."],
         "soundbites": ["https://vignette2.wikia.nocookie.net/leagueoflegends/images/c/c6/Warwick_Select_new.ogg/revision/latest?cb=20170112015852"]
     },
     "MonkeyKing": {
