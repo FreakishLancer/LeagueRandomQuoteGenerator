@@ -1,89 +1,98 @@
-html, body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
+html,
+body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
 }
 
 body {
-    background-color: black;
-    text-align: center;
-    top: 100%;
-    color: white;
+	background-color: black;
+	text-align: center;
+	top: 100%;
+	color: white;
 }
 
 h1 {
-    font-family: "Merriweather", "Times", serif;
-    font-weight: normal;
-    position: relative;
+	font-family: "Merriweather", "Times", serif;
+	font-weight: normal;
+	position: relative;
+	font-size: 1.5em;
 }
 
 h2 {
-    font-family: "Candara", "Tahoma", sans-serif;
-    font-weight: bold;
-    position: relative;
-    font-size: 1em;
-    padding-left: 350px;
+	font-family: "Candara", "Tahoma", sans-serif;
+	font-weight: bold;
+	position: relative;
+	font-size: 1em;
+	padding-left: 35%;
+	margin-left: 10%;
+	margin-right: 10%;
+	white-space: nowrap;
 }
 
 img {
-    border-radius: 10px;
-    position: relative;
-    margin: auto;
-    transition-duration: 1s;
-    height: 30%;
-    width: 30%;
-    margin-bottom: 20px;
-    border: 0.05px solid white;
+	border-radius: 10px;
+	position: relative;
+	margin: auto;
+	transition-duration: 1s;
+	height: 35%;
+	width: 35%;
+	margin-bottom: 10px;
+	border: 0.05px solid white;
 }
 
 figcaption {
-    position: relative;
-    font-size: 1.1em;
-    margin: inherit;
+	position: relative;
+	font-size: 1.1em;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 #championquote {
-    font-family: "Noticia Text", "Tahoma", serif, sans-serif;
+	font-family: "Noticia Text", "Tahoma", serif, sans-serif;
 }
 
-button, #tweet {
-    font-family: "Tahoma", sans-serif;
-    background-color: #85D7F2;
-    border-style: none;
-    border-radius: 3.5px;
-    font-size: 14px;
-    font-weight: bolder;
-    padding: 6px 10px;
-    text-decoration: none;
-    transition-duration: 0.3s;
-    color: black;
+button,
+#tweet {
+	font-family: "Tahoma", sans-serif;
+	background-color: #85D7F2;
+	border-style: none;
+	border-radius: 3.5px;
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 6px 10px;
+	text-decoration: none;
+	transition-duration: 0.3s;
+	color: black;
 }
 
 #tweet {
-    padding: 7px 10px;
+	padding: 7px 10px;
 }
 
-button:hover, #tweet:hover {
-    background-color: white;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+button:hover,
+#tweet:hover {
+	background-color: white;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(255, 255, 255, 0.1);
+	cursor: pointer;
 }
 
-button:active, #tweet:active {
-    background-color: #F2A085;
-    transition-duration: 0s;
+button:active,
+#tweet:active {
+	background-color: #F2A085;
+	transition-duration: 0s;
 }
 
 footer {
-    font-size: .8em;
+	font-size: .8em;
 	font-family: "Noticia Text", "Tahoma", serif, sans-serif;
-    margin: auto;
-    width: 200px;
-    height: 30px;
+	margin: auto;
+	width: 200px;
+	height: 30px;
 }
 
 .footer-container {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
